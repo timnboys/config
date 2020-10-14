@@ -23,6 +23,7 @@ type (
 	Server struct {
 		Host      string
 		Domain    string
+		Domain2   string
 		BaseUrl   string
 		MainSite  string
 		Ratelimit Ratelimit
